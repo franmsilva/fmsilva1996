@@ -13,13 +13,13 @@ export default () => ({
   technologies: {
     frontEnd: {
       js: ["react", "angular"],
-      css: ["sass", bulma", "bootstrap"]
+      css: ["sass", "bulma", "bootstrap"]
     },
     backEnd: {
       js: ["node", "express", "koa"],
       misc: ["graphql", "apollo"]
     },
-    languages: ["javascript", "typescript", "java", ],
+    languages: ["javascript", "typescript", "java"],
     testing: ["mocha", "chai", "jest", "jasmine"],
     databases: ["mongo", "postgresql"]
   },
