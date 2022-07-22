@@ -12,20 +12,18 @@ export default () => ({
   ],
   technologies: {
     frontEnd: {
-      js: ["react", "angular"],
-      css: ["sass", "bulma", "bootstrap"]
+      js: ["react", "nextjs", "typescript"],
+      css: ["styled-components", "tailwind", "sass"]
     },
     backEnd: {
       js: ["node", "express", "koa"],
       misc: ["graphql", "apollo"]
     },
-    languages: ["javascript", "typescript", "java"],
-    testing: ["mocha", "chai", "jest", "jasmine"],
+    languages: ["javascript", "typescript", "rust"],
+    testing: ["jest", "chai", "cypress", "jasmine"],
     databases: ["mongo", "postgresql"]
   },
-  currentlyLearning: [
-    "redux", "python"
-  ]
+  currentlyLearning: ["rust", "remix"]
 });
 ```
 
